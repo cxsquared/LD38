@@ -1,0 +1,42 @@
+[
+	{
+		"title": "Start",
+		"tags": "",
+		"body": "Player: This is the first node!\nOther Player: This has a : in it.\n<<set $test to 1>>\n\n[[Go to the next node|NextNode]]\n[[No Thanks|NoThanks]]\n[[Shortcut Branching|ShortCut]]",
+		"position": {
+			"x": 151,
+			"y": 89
+		},
+		"colorID": 0
+	},
+	{
+		"title": "NextNode",
+		"tags": "",
+		"body": "Player: This is the next node.\n<<if $test == 1>>\nNot Player: We should see this.\n<<endif>>\n",
+		"position": {
+			"x": 426,
+			"y": 136
+		},
+		"colorID": 0
+	},
+	{
+		"title": "NoThanks",
+		"tags": "",
+		"body": "Hey, no problem",
+		"position": {
+			"x": 132,
+			"y": 396
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Shortcut",
+		"tags": "",
+		"body": "",
+		"position": {
+			"x": 445,
+			"y": 390
+		},
+		"colorID": 0
+	}
+]

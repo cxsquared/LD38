@@ -1,0 +1,38 @@
+title: Start
+tags: These are tags
+colorID: 0
+position: 129,109
+---
+This is the first node!
+
+[[Go to the next node|NextNode]]
+[[No Thanks|NoThanks]]
+[[Shortcut Branching|ShortCut]]
+===
+title: NextNode
+tags: 
+colorID: 0
+position: 426,136
+---
+This is the next node.
+===
+title: NoThanks
+tags: 
+colorID: 0
+position: 132,396
+---
+Hey, no problem
+===
+title: Shortcut
+tags: 
+colorID: 0
+position: 445,390
+---
+-> This is a shortcut option!
+    It's a bit quicker to put in.
+-> Yeah, this is another option!
+    -> And these are nexted options.
+        Cool.
+    -> This one has a conditional~ <<if $option_available is 1>>
+        Also Cool.
+===
